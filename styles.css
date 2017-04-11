@@ -1,0 +1,118 @@
+/*** colors  ***/
+* { color: #726f70; }
+.all { background-color: #726f70; }
+
+.ice{ background-color: #8adad6; }
+.ice-bd{ border-left: 3px solid #8adad6; }
+.ice-txt { color: #8adad6; }
+
+.sun { color:#ffd662; /* aspen gold */ }
+.sun-bd{ border-left: 3px solid #ffd662; }
+.sun-txt, li.sun-txt { color: #ffd662; }
+
+.jewel{ background-color: #6e81be; /* persian jewel */}
+.jewel-bd{ border-left: 3px solid #6e81be;}
+.jewel-txt { color: #6e81be;}
+
+.rose{ background-color: #f25f66; /* dubarry */}
+.rose-bd{ border-left: 3px solid #f25f66; }
+.rose-txt, li.rose-txt { color: #f25f66; }
+
+.tang{ background-color: #f88f58; /* tangerine */}
+.tang-bd{ border-left: 3px solid #f88f58; }
+.tang-txt { color: #f88f58; }
+/* end of colors */
+
+/* styles ordered by position in document */
+.row { margin-bottom: 0; }
+
+li.active{ border-bottom: 2px solid rgba(114, 111, 112, 0.5); }
+
+.color-sm, .collapsible-header .color, .head-info, .check, .limit {
+  display: inline-block;
+}
+.color, .color-sm, #add { cursor: pointer; }
+
+.color{
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 100%;
+  margin: 1em auto;
+}
+.lg-i { font-size: 2em; }
+
+.collapsible-header .color{
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 1.5em 0 0;
+}
+.collapsible-header .color, .check, .lg-i { vertical-align: middle; }
+
+.check, .head-info {
+  line-height: 100%;
+  margin-top: 0.25em;
+  font-size: 1.75em;
+}
+.check {
+  float: left;
+  margin-right: 1em;
+}
+.limit{
+  margin: 0;
+  padding: 0;
+  max-width: 20em;
+}
+.h-txt{
+  font-size: 1.2em;
+  line-height: 2em;
+  cursor: text;
+}
+.head-info{ margin-left: 1em; }
+
+.dropdown-content li {
+  min-height: 0;
+  padding: 0.5em 0;
+}
+.dropdown-content>li:hover{
+  background-color: #fff;
+}
+.color-sm:hover{
+box-shadow: 0px 2px 2px 1px rgba(114, 111, 112, 0.15);
+transform: scale(1.1, 1.1);
+}
+.dropdown-content{
+  margin-top: -2.5em;
+}
+.dropdown-content li{
+  text-align: center;
+  line-height: 1em;
+  padding-top: 0.75em;
+}
+.dropdown-content li:nth-child(3){
+  padding-bottom: 0.75em;
+}
+.color-sm {
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    margin: 1px;
+    padding: 0;
+}
+#add {
+  font-size: 2.25em;
+  color: rgba(114, 111, 112, 0.5);
+}
+#add:hover { color: #726f70; }
+
+.hide { display: none; }
+
+#star { margin: 0; }
+
+.new-todo {
+  display: block;
+  margin:  1em auto;
+}
+#new-input{
+  color: #726f70;
+  font-size: 1.2em;
+}
