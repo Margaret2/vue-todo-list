@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>todo2</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.css">
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
   <body>
     <div id="app">
@@ -13,6 +14,10 @@
                 @update-id="updateId" @update-list="updateList">
       </app>
     </div>
+    <a class="github-button" href="https://github.com/margaret2/vue-todo-list"
+    data-icon="octicon-star" data-style="mega" data-count-href="/margaret2/vue-todo-list/stargazers"
+    data-count-api="/repos/margaret2/vue-todo-list#stargazers_count" data-count-aria-label="# stargazers on GitHub"
+    aria-label="Star margaret2/vue-todo-list on GitHub">Star</a>
     <script src="dist/build.js"></script>
   </body>
 </html>
